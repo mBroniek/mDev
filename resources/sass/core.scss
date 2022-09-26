@@ -1,0 +1,8 @@
+// Variables et mixins
+@import "uikit/src/scss/variables-theme.scss";
+@import "uikit/src/scss/mixins-theme.scss";
+
+// UIKit
+@import "uikit/src/scss/uikit-theme.scss";
+
+audio, canvas, iframe, img, svg, video {vertical-align:unset !important;}

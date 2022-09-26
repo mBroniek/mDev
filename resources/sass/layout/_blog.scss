@@ -1,0 +1,193 @@
+//blog
+.blog-yellow-box {
+    background: #EFF61E;
+
+    h3 {
+        line-height: 1.5rem;
+        font-size: 1.3rem;
+    }
+
+    ul {
+        li {
+            span {
+                display: inline-block
+            }
+
+            display: flex;
+            align-content: center;
+            align-items: center;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+    }
+}
+
+.blog {
+    position: relative;
+    background: #F2F6FE;
+    //&::after {
+    //    content:"";
+    //    background:#F2F6FE url('../../public/images/background-outline-pattern.webp') no-repeat 0 0 ;
+    //    background-size: contain;
+    //    width: 100%;
+    //    height: 100%;
+    //    position: absolute;
+    //    display: inline-block;
+    //}
+}
+
+.blog-list div .uk-pagination {
+
+}
+
+.blog-list {
+    overflow-x: hidden !important;
+
+    li {
+        &:hover {
+            text-overflow: initial;
+            white-space: pre-wrap;
+        }
+
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 0;
+
+    }
+}
+
+.blog-inside {
+    p {
+        line-height: 30px;
+    }
+
+    h2 {
+        font-size: 31px;
+        font-weight: 500;
+    }
+}
+
+.pill-blog {
+    margin: 0 !important;
+
+    li {
+        padding: 0;
+
+        a {
+            color: #0066FF !important;
+            background: #D9E7FE !important;
+            margin: 5px !important;
+            padding: 15px !important;
+            display: inline-block;
+            font-size: 1.1rem !important;
+            font-weight: bold;
+            border-radius: 5px;
+            text-transform: capitalize !important;
+        }
+    }
+}
+
+//blog
+.pill-blog > .uk-active > a {
+    color: #fff !important;
+    background: #0066FF !important;
+    -webkit-box-shadow: 0px 0px 0px 6px rgba(69, 182, 255, 0.25);
+    -moz-box-shadow: 0px 0px 0px 6px rgba(69, 182, 255, 0.25);
+    box-shadow: 0px 0px 0px 6px rgba(69, 182, 255, 0.25);
+}
+
+.new-article {
+    border: 3px solid #0066FF;
+    -webkit-box-shadow: 0px 0px 45px -17px rgba(0, 102, 255, 1);
+    -moz-box-shadow: 0px 0px 45px -17px rgba(0, 102, 255, 1);
+    box-shadow: 0px 0px 45px -17px rgba(0, 102, 255, 1);
+}
+
+.new-article .uk-card-badge {
+    padding: 15px !important;
+    background: #0066FF;
+    left: 15px !important;
+    right: initial !important;
+    text-transform: capitalize !important;
+    font-weight: bolder;
+}
+
+.pagination-blog-welcome {
+    background: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 45px -17px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 0px 0px 45px -17px rgba(0, 0, 0, 0.33);
+    box-shadow: 0px 0px 45px -17px rgba(0, 0, 0, 0.33);
+
+    li {
+        display: flex;
+        align-items: center;
+        align-content: center;
+
+        a, span {
+            display: block;
+
+        }
+
+        margin: 0 2px !important;
+        text-align: center;
+        border-radius: 5px;
+        color: #fff;
+
+        &:hover {
+            background: #E5EFFF;
+        }
+    }
+
+    .uk-active {
+        background: #0066FF;
+
+        a {
+            color: #fff !important;
+        }
+
+        &:hover {
+            background: #0066FF !important;
+
+            a {
+                color: #fff !important;
+            }
+        }
+    }
+
+    .uk-disabled {
+        color: #1a202c;
+    }
+}
+
+.case-studies-box {
+    @media screen and (max-width: $closelarge) {
+
+        div {
+            padding-bottom: 0;
+            display: block !important;
+
+            div:last-child {
+                text-align: center !important;
+                padding-top: 30px;
+            }
+        }
+    }
+    &:hover {
+        .case-studies-box-description {
+            display:block;
+        }
+    }
+}
+
+.case-studies-box-description {
+    left: 0;
+    bottom: 90px;
+    padding: 20px;
+    z-index: 99999999;
+    background: rgba(255, 255, 255, 0.95);
+    display:none;
+    font-weight:bold;
+    color:#1d1d1d;
+}

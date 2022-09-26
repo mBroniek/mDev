@@ -1,0 +1,18 @@
+// Media queries
+
+$medium: 768px;
+$mediumtablet: 960px;
+$closelarge: 1100px;
+$large:1199px;
+
+
+.-invert {filter:invert(1) !important}
+.-white {color:#fff !important;}
+.-blue {color:#0066FF}
+.-green{color:#367D14}
+.-purple {color:#5807B5 !important}
+.-whitebg {background: #fff;}
+.-dark {color:#1a202c}
+.-bgremove {background:transparent !important;}
+.no-border{border:none !important;}
+.uk-text-medium {font-size:1.2rem; padding:0 20px !important;}

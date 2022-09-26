@@ -1,0 +1,68 @@
+//headers
+
+.header-gradient {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(248,238,245,1) 60%, rgba(227,228,247,1) 93%);
+    position:relative;
+    @media screen and (max-width: $mediumtablet) {
+        max-height: initial;
+    }
+}
+.header-gradient-ujji {
+    background:url(../../../public/images/ujji.webp);
+    background-size:cover;
+}
+.header-gradient-blue {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(230,240,255,1) 98%);
+}
+.header-gradient-mint {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(186,245,255,1) 98%);
+}
+.header-gradient-orange{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(255,231,219,1) 98%);
+    span {
+        mark {
+            color:#D85905 !important;
+        }
+    }
+}
+.header-gradient-green{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(214,253,205,1) 98%);
+}
+.header-gradient-purple{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(226,217,249,1) 98%);
+}
+.header-gradient-gold{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(255,228,174,1) 98%);
+}
+
+
+.uk-web {background: #6EE943}
+.uk-uxui {background: #5807B5}
+.uk-discovery{background: #EFAF30}
+.uk-team {background:#EF7C30}
+.uk-ai {background:#1ECBE3}
+
+.header-ai {
+    span {
+        mark {
+            color:#168E9F !important;
+        }
+    }
+}
+.header-ujji {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}

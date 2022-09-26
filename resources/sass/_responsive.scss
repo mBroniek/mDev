@@ -1,0 +1,12 @@
+.header-buttons {
+@media screen and (max-width: $medium) {
+flex-wrap:wrap !important;
+}
+}
+.clutch-widget {
+    @media screen and (max-width: $medium) {
+        margin:0;
+    }
+}
+
+

@@ -1,0 +1,16 @@
+//form
+.searcher-section {
+    background:#fff;
+    -webkit-box-shadow: 0px 33px 45px -17px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 33px 45px -17px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 33px 45px -17px rgba(0, 0, 0, 0.1);
+    z-index:999;
+    position: relative;
+}
+#contact-us {
+    input, textarea {
+        border:none;
+        border-radius: 5px;
+    }
+}
+input, textarea {font-size: 1.1rem !important;}
